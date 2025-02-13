@@ -1,11 +1,11 @@
 
 const galleryImages = [
   {
-    src: require('./images/what-confused.gif'),
+    src: require('./images/fun-hat.JPEG'),
     alt: '',
   },
   {
-    src: require('./images/catgif.gif'),
+    src: require('./images/cool-guy.JPEG'),
     alt: '',
   },
 
@@ -15,18 +15,18 @@ const galleryImages = [
 
 export const projects = [
     {
-      title: "Cat Coder",
-      subtitle: "Whack Whack Whack",
-      description: "I code things",
-      image: require("./images/catgif.gif"),
+      title: "Sleepy Boy",
+      subtitle: "I get sleepy",
+      description: "So so sleepy",
+      image: require("./images/fun-hat.JPEG"),
       gallery: galleryImages
     },
     {
-      title: "What?",
-      subtitle: "I'm confused",
+      title: "Woah!!!",
+      subtitle: "Hi guys!",
       description:
-        "Is this a cat? Who knows.",
-      image: require("./images/what-confused.gif"),
+        "Is this a cat? No! It's Milo!",
+      image: require("./images/cool-guy.JPEG"),
       gallery: galleryImages
     },
   ];
